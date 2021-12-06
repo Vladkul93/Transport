@@ -27,7 +27,6 @@ function myFunction() {
     }
 
 
-
     var slideIndex = 1;
     showSlides(slideIndex);
 
@@ -62,8 +61,6 @@ function myFunction() {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " deystvuyus";
     }
-
-
     function myFunction1() {
         document.getElementById("myDropdown1").classList.toggle("show1");
     }
